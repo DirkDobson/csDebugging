@@ -10,21 +10,23 @@ namespace debugging
             var numbers = new List<int>{ 1, 2, 3, 4, 5, 6};
             var smallest = GetSmallests(numbers, 3);
 
-            foreach ( var number in smallests)
+            foreach ( var number in smallest)
                 System.Console.WriteLine(number);
                 
         }
         public static List<int> GetSmallests(List<int> list, int count )
         {
-            var min = GetSmallest(list);
-            while (smallest.Count < count)
-            {
+            var smallests = new List<int>();
+
+            while (smallests.Count < count)
+            {var min = GetSmallest(list);
             smallests.Add(min);
             list.Remove(min);
             }
+            
+            return smallests; 
         }
 
-        return smallest; 
 
         public static int GetSmallest(List<int> list)
         {
