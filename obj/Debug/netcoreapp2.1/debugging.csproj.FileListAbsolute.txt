@@ -1,0 +1,11 @@
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/bin/Debug/netcoreapp2.1/debugging.deps.json
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/bin/Debug/netcoreapp2.1/debugging.runtimeconfig.json
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/bin/Debug/netcoreapp2.1/debugging.runtimeconfig.dev.json
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/bin/Debug/netcoreapp2.1/debugging.dll
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/bin/Debug/netcoreapp2.1/debugging.pdb
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.csprojAssemblyReference.cache
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.csproj.CoreCompileInputs.cache
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.AssemblyInfoInputs.cache
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.AssemblyInfo.cs
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.dll
+/Users/dirkvancouver/Desktop/Projects/c#practice/debugging/obj/Debug/netcoreapp2.1/debugging.pdb
