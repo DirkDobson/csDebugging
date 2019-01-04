@@ -7,7 +7,7 @@ namespace debugging
     {
         public static void Main(string[] args)
         {
-            var numbers = new List<int>{ 1, 2, 3, 4, 5, 6};
+            var numbers = new List<int>{ 1, 2};
             var smallest = GetSmallests(numbers, 3);
 
             foreach ( var number in smallest)
@@ -16,6 +16,12 @@ namespace debugging
         }
         public static List<int> GetSmallests(List<int> list, int count )
         {
+            if (list == null)
+                throw new ArgumentNullException("list");
+                
+            if (count > list.Count || count <= 0)
+                throw new ArgumentOutOfRangeException("count", "Count should be between 1 and number of elements in the list");
+            
             var buffer = new List<int>(list);
             var smallests = new List<int>();
 
