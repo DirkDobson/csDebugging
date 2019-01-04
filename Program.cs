@@ -11,19 +11,21 @@ namespace debugging
             var smallest = GetSmallests(numbers, 3);
 
             foreach ( var number in smallest)
-                System.Console.WriteLine(number);
+                Console.WriteLine(number);
                 
         }
         public static List<int> GetSmallests(List<int> list, int count )
         {
+            var buffer = new List<int>(list);
             var smallests = new List<int>();
 
             while (smallests.Count < count)
-            {var min = GetSmallest(list);
+            {
+            var min = GetSmallest(buffer);
             smallests.Add(min);
-            list.Remove(min);
+            buffer.Remove(min);
             }
-            
+
             return smallests; 
         }
 
